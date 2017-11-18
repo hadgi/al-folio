@@ -1,36 +1,35 @@
 # -----------------------------------------------------------------------------
 # Site settings
 # -----------------------------------------------------------------------------
-name: Your Name
-email: you@example.com
+name: Radim Hladík
+email: hladik@flu.cas.cz
 description: > # this means to ignore newlines until "url:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
+  Personal website.
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-
-url:  # the base hostname & protocol for your site
-baseurl: /al-folio # the subpath of your site, e.g. /blog/
+url: radimhladik.net # the base hostname & protocol for your site
+baseurl: /personalweb # the subpath of your site, e.g. /blog/
 last_updated: # leave blank if you don't want to display last updated
 
 # -----------------------------------------------------------------------------
 # Social integration
 # -----------------------------------------------------------------------------
-github_username: # put your github username
-twitter_username: # put your twitter username
-linkedin_username: # put your linkedin username
-scholar_authorid: # put your google scholar author id
+github_username: hadgi # put your github username
+twitter_username: radim_hadgi # put your twitter username
+scholar_authorid: wCkhIHMAAAAJ # put your google scholar author id
+linkedin_username: false
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  Email and social networks.
 
-google_analytics: UA-XXXXXXXXX # out your google-analytics code
+google_analytics: UA-109842902-1 # out your google-analytics code
 
 # -----------------------------------------------------------------------------
 # Blog
 # -----------------------------------------------------------------------------
-blog_name: al-folio
-blog_description: a simple whitespace theme for academics
+blog_name: Stop Words
+blog_description: what follows are loosely structured linguistic data
 
 # Pagination
 paginate: 4
@@ -43,11 +42,11 @@ text:
     older: 'Older'
 
 # Comments
-disqus_shortname: al-folio # put your disqus shortname
+disqus_shortname: radimhladik # put your disqus shortname
 
 # Optional features
-show_social_icons:  false
-enable_anchorjs:    false
+show_social_icons:  true
+enable_anchorjs:    true
 enable_katex:       true
 
 # -----------------------------------------------------------------------------
@@ -57,7 +56,7 @@ collections:
   news:
     defaults:
       layout: post
-    output: true
+    output: false
     permalink: /news/:path/
   projects:
     output: true
@@ -85,7 +84,7 @@ gems:
 # Jekyll-Scholar
 scholar:
 
-  last_name: Einstein
+  last_name: Hladík
 
   style: apa
   locale: en
